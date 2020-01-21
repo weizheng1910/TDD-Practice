@@ -8,13 +8,13 @@
 ## Instructions
 
 Write an app that takes one number as input and returns a string as output:
-```
+```javascript
 fooBarQix.compute(1);
 // returns "1"
 ```
 
 However, if the number follows one of the rules below, then return a word instead. For example, __numbers that are divisible by 3 but do not contain 3 return "Foo":__ 
-```
+```javascript
 fooBarQix.compute(6);
 // returns "Foo"
 ```
@@ -25,7 +25,7 @@ Write your app following the [TDD development lifecycle](https://en.wikipedia.or
 
 - If the number is divisible by 3 or contains 3, return "Foo" instead of 3
 
-  ```
+  ```javascript
   fooBarQix.compute(6)
   // returns "Foo" as 6 is divisible by 3
   
@@ -33,12 +33,12 @@ Write your app following the [TDD development lifecycle](https://en.wikipedia.or
   // returns "Foo" as 13 contains 3
   ```
 - If the number is divisible by 5 or contains 5, return "Bar" instead of 5
-  ```
+  ```javascript
   fooBarQix.compute(10)
   // returns "Bar" as 10 is divisible by 5
   ```
 - If the number is divisible by 7 or contains 7, return "Qix" instead of 7
-  ```
+  ```javascript
   fooBarQix.compute(14)
   // returns "Qix" as 14 is divisible by 7
   
@@ -46,12 +46,12 @@ Write your app following the [TDD development lifecycle](https://en.wikipedia.or
   // returns "Qix" as 17 contains 7
   ```
 - More than one rule can apply at the same time
-  ```
+  ```javascript
   fooBarQix.compute(15)
   // returns "FooBarBar" as 15 is divisible by 3, is divisible by 5, and contains 5
   ```
 - Prioritize the "divisor" rule over the "contains" rule 
-  ```
+  ```javascript
   fooBarQix.compute(51)
   // returns "FooBar" as 51 is divisible by 3 and contains 5
   ```
