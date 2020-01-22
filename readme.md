@@ -57,7 +57,7 @@ Write your app following the [TDD development lifecycle](https://en.wikipedia.or
   ```
 
 ## Recommended Order of Tests
-Remember that when practicing TDD, you should always start with the simplest test first. Here is a list of tests I recommend that you start with:
+Remember that when practicing TDD, __you should always start with the simplest test first__. Here is a list of tests I recommend that you start with:
 1. Return "1" when the input is 1
 2. Return "Foo" when the input is divisible by 3 but does not contain 3 (i.e. input is 6)
 3. Return "Bar" when the input is divisible by 5 but does not contain 5 (i.e. input is 10)
