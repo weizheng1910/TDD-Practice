@@ -61,7 +61,7 @@ Remember that when practicing TDD, __you should always start with the simplest t
 1. Return "1" when the input is 1
 2. Return "Foo" when the input is divisible by 3 but does not contain 3 (i.e. input is 6)
 3. Return "Bar" when the input is divisible by 5 but does not contain 5 (i.e. input is 10)
-4. Return "Qix" when the input is divisible by 7 but does not contain 7 (i.e. input is 17)
+4. Return "Qix" when the input is divisible by 7 but does not contain 7 (i.e. input is 14)
 5. Return "FooBar" when the input is divisible by 3 and 5 but does not contain either number (i.e. input is 60)
 6. Return "FooQix" when the input is divisible by 3 and 7 but does not contain either number (i.e. input is 21)
 7. Return "BarQix" when the input is divisible by 5 and 7 but does not contain either number (i.e. input is 140)
